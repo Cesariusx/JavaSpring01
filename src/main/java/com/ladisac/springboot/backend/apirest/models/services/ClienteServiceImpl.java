@@ -49,7 +49,7 @@ public class ClienteServiceImpl implements IClienteService {
 
 	@Override
 	@Transactional
-	public void delete(long Id) {
+	public void delete(Long Id) {
 		// Eliminar el CLiente por ID sin devolver nada
 		clienteDao.deleteById(Id);
 	}

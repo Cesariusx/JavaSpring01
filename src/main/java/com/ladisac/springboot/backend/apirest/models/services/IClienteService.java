@@ -19,7 +19,7 @@ public interface IClienteService {
 	
 	public Cliente save (Cliente cliente);
 	
-	public void delete( long Id );
+	public void delete( Long Id );
 	
 	public List<Region> findAllRegiones();
 	
