@@ -1,11 +1,11 @@
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 1, 'Sudamerica' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 2, 'Centromaerica' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 3, 'Norteamerica' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 4, 'Europa' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 5, 'Asia' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 6, 'Africa' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 7, 'Oceania' );
-INSERT INTO regiones ( id, nombre_region ) VALUES ( 8, 'Antartida' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 1, 'Sudamerica' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 2, 'Centromaerica' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 3, 'Norteamerica' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 4, 'Europa' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 5, 'Asia' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 6, 'Africa' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 7, 'Oceania' );
+INSERT INTO regiones ( id, nombre ) VALUES ( 8, 'Antartida' );
 
 INSERT INTO clientes ( region_id, nombre, apellido, email, create_at ) VALUES (1, 'Cesar', 'Soto', 'cesar1@hotmail.com', '2020-01-01');
 INSERT INTO clientes ( region_id, nombre, apellido, email, create_at ) VALUES (2, 'Cristina', 'Montes', 'cris2@hotmail.com', '2022-03-01');
@@ -114,8 +114,8 @@ INSERT INTO clientes ( region_id, nombre, apellido, email, create_at ) VALUES (7
 */
 
 /* Creamos algunos usuarios con sus roles */
-INSERT INTO `usuarios` ( username, password, enabled ) VALUES ('cesar', '$2a$10$ZWostrLbtb2E375nl2kC3uAQRaaT1SyRIVXaYn.7wQ9sOAbDntHAW', 1 );
-INSERT INTO `usuarios` ( username, password, enabled ) VALUES ('admin', '$2a$10$WOMWAtkn5Ekgs/t4OTSTAeejhzIOGshiiNjzNCBO8FarhxmKG8ACO', 1 );
+INSERT INTO `usuarios` ( username, password, enabled ) VALUES ('cesar', '$2a$10$SYQ7LpHKPlNWWX5ez.CJC.k.W3KusuxuCqENtJ04kAeQ8x8K1HF3q', 1 );
+INSERT INTO `usuarios` ( username, password, enabled ) VALUES ('admin', '$2a$10$/QPt54agwtYuhGZ.geFEmuFM3SOmDlUh27vb9jm1Vd9SumGyViksO', 1 );
 
 INSERT INTO `roles` ( nombre ) VALUES ( 'ROLE_USER' );
 INSERT INTO `roles` ( nombre ) VALUES ( 'ROLE_ADMIN' );
